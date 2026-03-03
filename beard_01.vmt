@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/Western_73/Beard_01"
+	"$normalmap" "models/Western_73/Beard_01_n"
+
+   	 "$phong" "1"
+ 	 "$phongfresnelranges"    "[0.5 4.75 5]"
+   	 "$phongboost"    ".3"
+
+ 	   "$envmaptint"    "[.135 .135 .135]"
+  	  "$envmapfresnel"    "1.4"
+  	  "$normalmapalphaenvmapmask" 1
+
+    	  "$halflambert" "1"
+	  "$alphatest" 1
+
+ 	  "$ambientocclusion" "1"
+    	  "$cloakPassEnabled"         "1"
+    	  "$phongfresnelranges"    "[ .2 1.2 8]"
+   	  "$nocull" "1"
+}
